@@ -1,7 +1,7 @@
 #! /bin/bash -x
 
 declare -a num
-num=(34 67 54)
+num=(3 5 6)
 echo "${num[@]}"
 
 length=${#num[@]}
@@ -21,3 +21,4 @@ do
 done
 
 echo "second largest number is "$secondMax
+echo "from newbranch"
